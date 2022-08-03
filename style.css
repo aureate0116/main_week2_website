@@ -57,8 +57,12 @@ table {
 .banner{
     background-image: url(image/banner.png);
     background-position: center;
-    padding:308px 0px;
+    height: 958px;
+    display: flex;
+    align-items: center;
+    
 }
+
 .bannerText{
     width: 304px;
     color: white;
@@ -68,7 +72,6 @@ table {
 .bannerText h1{
     font-size: 80px;
     line-height: 106px;
-   
     font-weight: bold;
     margin-bottom: 32px;
 }
@@ -80,7 +83,6 @@ table {
     margin-bottom: 40px;
     font-size:24px;
     line-height: 36px;
-
 }
 .bannerText ul img{
     width: 60px;
